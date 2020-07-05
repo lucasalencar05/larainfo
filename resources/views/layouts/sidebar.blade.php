@@ -6,12 +6,12 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="https://picsum.photos/id/870/200/200?grayscale&blur=2" class="img-circle"
+                <img src="https://source.unsplash.com/random/150x150" class="img-circle"
                      alt="User Image"/>
             </div>
             <div class="pull-left info">
                 @if (Auth::guest())
-                <p>Laravel</p>
+                <p>Lara</p>
                 @else
                     <p>{{ Auth::user()->name}}</p>
                 @endif

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Laravel Generator</title>
+    <title>Lara Generator</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
     <!-- Bootstrap 3.3.7 -->
@@ -35,7 +35,7 @@
 
             <!-- Logo -->
             <a href="#" class="logo">
-                <b>Laravel</b>
+                <b>Lara</b>
             </a>
 
             <!-- Header Navbar -->
@@ -52,7 +52,7 @@
                             <!-- Menu Toggle Button -->
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <!-- The user image in the navbar-->
-                                <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2"
+                                <img src="https://source.unsplash.com/random/150x150"
                                      class="user-image" alt="User Image"/>
                                 <!-- hidden-xs hides the username on small devices so only the image appears. -->
                                 <span class="hidden-xs">{{ Auth::user()->name }}</span>
@@ -60,7 +60,7 @@
                             <ul class="dropdown-menu">
                                 <!-- The user image in the menu -->
                                 <li class="user-header">
-                                    <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2"
+                                    <img src="https://source.unsplash.com/random/150x150"
                                          class="img-circle" alt="User Image"/>
                                     <p>
                                         {{ Auth::user()->name }}
@@ -98,7 +98,7 @@
 
         <!-- Main Footer -->
         <footer class="main-footer" style="max-height: 100px;text-align: center">
-            <strong>Copyright © 2020 <a href="#">Company</a>.</strong> All rights reserved.
+            <strong>Copyright © 2016 <a href="#">Company</a>.</strong> All rights reserved.
         </footer>
 
     </div>
@@ -118,7 +118,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel Generator
+                    Lara Generator
                 </a>
             </div>
 
